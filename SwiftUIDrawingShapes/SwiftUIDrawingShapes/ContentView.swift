@@ -9,8 +9,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    let componentsList = ["Default Shapes"]
+    
     var body: some View {
-        Text("Hello World")
+        NavigationView{
+            List{
+                NavigationLink(destination:DefaultShapes()){
+                    Text(componentsList[0])
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                }
+            }
+        }
     }
 }
 
