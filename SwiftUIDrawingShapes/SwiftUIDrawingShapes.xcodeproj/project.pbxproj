@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23A148CD242333E900B88CEF /* BasicAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A148CC242333E900B88CEF /* BasicAnimationView.swift */; };
 		23D80E0B242323E200E1BF8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D80E0A242323E200E1BF8A /* AppDelegate.swift */; };
 		23D80E0D242323E200E1BF8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D80E0C242323E200E1BF8A /* SceneDelegate.swift */; };
 		23D80E0F242323E200E1BF8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D80E0E242323E200E1BF8A /* ContentView.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23A148CC242333E900B88CEF /* BasicAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimationView.swift; sourceTree = "<group>"; };
 		23D80E07242323E200E1BF8A /* SwiftUIDrawingShapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDrawingShapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D80E0A242323E200E1BF8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23D80E0C242323E200E1BF8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				23D80E122423241000E1BF8A /* Preview Content */,
 				23D80E3A2423251100E1BF8A /* DefaultShapes.swift */,
 				23D80E3E242329E400E1BF8A /* SpiroSquare.swift */,
+				23A148CC242333E900B88CEF /* BasicAnimationView.swift */,
 			);
 			path = SwiftUIDrawingShapes;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23A148CD242333E900B88CEF /* BasicAnimationView.swift in Sources */,
 				23D80E0B242323E200E1BF8A /* AppDelegate.swift in Sources */,
 				23D80E0D242323E200E1BF8A /* SceneDelegate.swift in Sources */,
 				23D80E0F242323E200E1BF8A /* ContentView.swift in Sources */,
