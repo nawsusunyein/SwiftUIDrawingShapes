@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		23A148CD242333E900B88CEF /* BasicAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A148CC242333E900B88CEF /* BasicAnimationView.swift */; };
 		23D4EB7F24234BFA00A0B96A /* AnimationInBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D4EB7E24234BFA00A0B96A /* AnimationInBinding.swift */; };
+		23D4EB81242353FD00A0B96A /* ExplicitAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D4EB80242353FD00A0B96A /* ExplicitAnimationView.swift */; };
 		23D80E0B242323E200E1BF8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D80E0A242323E200E1BF8A /* AppDelegate.swift */; };
 		23D80E0D242323E200E1BF8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D80E0C242323E200E1BF8A /* SceneDelegate.swift */; };
 		23D80E0F242323E200E1BF8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D80E0E242323E200E1BF8A /* ContentView.swift */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		23A148CC242333E900B88CEF /* BasicAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimationView.swift; sourceTree = "<group>"; };
 		23D4EB7E24234BFA00A0B96A /* AnimationInBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationInBinding.swift; sourceTree = "<group>"; };
+		23D4EB80242353FD00A0B96A /* ExplicitAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimationView.swift; sourceTree = "<group>"; };
 		23D80E07242323E200E1BF8A /* SwiftUIDrawingShapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDrawingShapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D80E0A242323E200E1BF8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23D80E0C242323E200E1BF8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				23D80E3E242329E400E1BF8A /* SpiroSquare.swift */,
 				23A148CC242333E900B88CEF /* BasicAnimationView.swift */,
 				23D4EB7E24234BFA00A0B96A /* AnimationInBinding.swift */,
+				23D4EB80242353FD00A0B96A /* ExplicitAnimationView.swift */,
 			);
 			path = SwiftUIDrawingShapes;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				23D80E0F242323E200E1BF8A /* ContentView.swift in Sources */,
 				23D80E3B2423251100E1BF8A /* DefaultShapes.swift in Sources */,
 				23D4EB7F24234BFA00A0B96A /* AnimationInBinding.swift in Sources */,
+				23D4EB81242353FD00A0B96A /* ExplicitAnimationView.swift in Sources */,
 				23D80E3F242329E400E1BF8A /* SpiroSquare.swift in Sources */,
 				23D80E3D2423297300E1BF8A /* DrawingCustomPathRows.swift in Sources */,
 			);

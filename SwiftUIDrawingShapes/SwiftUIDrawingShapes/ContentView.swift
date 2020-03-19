@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    let componentsList = ["Default Shapes","Custome Path","Basic Animation","Animation Binding"]
+    let componentsList = ["Default Shapes","Custome Path","Basic Animation","Animation Binding","Explicit Animation"]
     
     var body: some View {
         NavigationView{
@@ -37,6 +37,13 @@ struct ContentView: View {
                 }
                 NavigationLink(destination:AnimationInBinding()){
                     Text(componentsList[3])
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                }
+                NavigationLink(destination:ExplicitAnimationView()){
+                    Text(componentsList[4])
                         .padding()
                         .background(Color.blue)
                         .foregroundColor(Color.white)
