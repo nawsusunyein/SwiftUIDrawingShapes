@@ -16,6 +16,8 @@
 		23D80E222423241000E1BF8A /* SwiftUIDrawingShapesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D80E212423241000E1BF8A /* SwiftUIDrawingShapesTests.swift */; };
 		23D80E2D2423241100E1BF8A /* SwiftUIDrawingShapesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D80E2C2423241100E1BF8A /* SwiftUIDrawingShapesUITests.swift */; };
 		23D80E3B2423251100E1BF8A /* DefaultShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D80E3A2423251100E1BF8A /* DefaultShapes.swift */; };
+		23D80E3D2423297300E1BF8A /* DrawingCustomPathRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D80E3C2423297300E1BF8A /* DrawingCustomPathRows.swift */; };
+		23D80E3F242329E400E1BF8A /* SpiroSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D80E3E242329E400E1BF8A /* SpiroSquare.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		23D80E2C2423241100E1BF8A /* SwiftUIDrawingShapesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDrawingShapesUITests.swift; sourceTree = "<group>"; };
 		23D80E2E2423241100E1BF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23D80E3A2423251100E1BF8A /* DefaultShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultShapes.swift; sourceTree = "<group>"; };
+		23D80E3C2423297300E1BF8A /* DrawingCustomPathRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCustomPathRows.swift; sourceTree = "<group>"; };
+		23D80E3E242329E400E1BF8A /* SpiroSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiroSquare.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				23D80E0A242323E200E1BF8A /* AppDelegate.swift */,
+				23D80E3C2423297300E1BF8A /* DrawingCustomPathRows.swift */,
 				23D80E0C242323E200E1BF8A /* SceneDelegate.swift */,
 				23D80E0E242323E200E1BF8A /* ContentView.swift */,
 				23D80E102423241000E1BF8A /* Assets.xcassets */,
@@ -109,6 +114,7 @@
 				23D80E182423241000E1BF8A /* Info.plist */,
 				23D80E122423241000E1BF8A /* Preview Content */,
 				23D80E3A2423251100E1BF8A /* DefaultShapes.swift */,
+				23D80E3E242329E400E1BF8A /* SpiroSquare.swift */,
 			);
 			path = SwiftUIDrawingShapes;
 			sourceTree = "<group>";
@@ -274,6 +280,8 @@
 				23D80E0D242323E200E1BF8A /* SceneDelegate.swift in Sources */,
 				23D80E0F242323E200E1BF8A /* ContentView.swift in Sources */,
 				23D80E3B2423251100E1BF8A /* DefaultShapes.swift in Sources */,
+				23D80E3F242329E400E1BF8A /* SpiroSquare.swift in Sources */,
+				23D80E3D2423297300E1BF8A /* DrawingCustomPathRows.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

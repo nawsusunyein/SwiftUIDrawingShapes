@@ -9,13 +9,20 @@
 import SwiftUI
 
 struct ContentView: View {
-    let componentsList = ["Default Shapes"]
+    let componentsList = ["Default Shapes","Custome Path"]
     
     var body: some View {
         NavigationView{
             List{
                 NavigationLink(destination:DefaultShapes()){
                     Text(componentsList[0])
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                }
+                NavigationLink(destination:DrawingCustomPathRows()){
+                    Text(componentsList[1])
                         .padding()
                         .background(Color.blue)
                         .foregroundColor(Color.white)
