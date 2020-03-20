@@ -14,6 +14,8 @@
 		23D4EB882423646800A0B96A /* AnimationImmediately.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D4EB872423646800A0B96A /* AnimationImmediately.swift */; };
 		23D4EB8A242372C500A0B96A /* MultipleAnimInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D4EB89242372C500A0B96A /* MultipleAnimInView.swift */; };
 		23D4EB8C24237C6800A0B96A /* AddAndRemoveViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D4EB8B24237C6800A0B96A /* AddAndRemoveViews.swift */; };
+		23D5AA5E24245E58000412C0 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D5AA5D24245E58000412C0 /* SecondView.swift */; };
+		23D5AA6024245FCB000412C0 /* CombineTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D5AA5F24245FCB000412C0 /* CombineTransitions.swift */; };
 		23D80E0B242323E200E1BF8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D80E0A242323E200E1BF8A /* AppDelegate.swift */; };
 		23D80E0D242323E200E1BF8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D80E0C242323E200E1BF8A /* SceneDelegate.swift */; };
 		23D80E0F242323E200E1BF8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D80E0E242323E200E1BF8A /* ContentView.swift */; };
@@ -52,6 +54,8 @@
 		23D4EB872423646800A0B96A /* AnimationImmediately.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationImmediately.swift; sourceTree = "<group>"; };
 		23D4EB89242372C500A0B96A /* MultipleAnimInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleAnimInView.swift; sourceTree = "<group>"; };
 		23D4EB8B24237C6800A0B96A /* AddAndRemoveViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAndRemoveViews.swift; sourceTree = "<group>"; };
+		23D5AA5D24245E58000412C0 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		23D5AA5F24245FCB000412C0 /* CombineTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineTransitions.swift; sourceTree = "<group>"; };
 		23D80E07242323E200E1BF8A /* SwiftUIDrawingShapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDrawingShapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D80E0A242323E200E1BF8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23D80E0C242323E200E1BF8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +140,8 @@
 				23D4EB872423646800A0B96A /* AnimationImmediately.swift */,
 				23D4EB89242372C500A0B96A /* MultipleAnimInView.swift */,
 				23D4EB8B24237C6800A0B96A /* AddAndRemoveViews.swift */,
+				23D5AA5D24245E58000412C0 /* SecondView.swift */,
+				23D5AA5F24245FCB000412C0 /* CombineTransitions.swift */,
 			);
 			path = SwiftUIDrawingShapes;
 			sourceTree = "<group>";
@@ -297,12 +303,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23D5AA5E24245E58000412C0 /* SecondView.swift in Sources */,
 				23A148CD242333E900B88CEF /* BasicAnimationView.swift in Sources */,
 				23D80E0B242323E200E1BF8A /* AppDelegate.swift in Sources */,
 				23D4EB8C24237C6800A0B96A /* AddAndRemoveViews.swift in Sources */,
 				23D4EB8A242372C500A0B96A /* MultipleAnimInView.swift in Sources */,
 				23D80E0D242323E200E1BF8A /* SceneDelegate.swift in Sources */,
 				23D4EB832423580500A0B96A /* DelayAnimationView.swift in Sources */,
+				23D5AA6024245FCB000412C0 /* CombineTransitions.swift in Sources */,
 				23D80E0F242323E200E1BF8A /* ContentView.swift in Sources */,
 				23D80E3B2423251100E1BF8A /* DefaultShapes.swift in Sources */,
 				23D4EB7F24234BFA00A0B96A /* AnimationInBinding.swift in Sources */,
