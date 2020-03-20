@@ -10,11 +10,25 @@ import SwiftUI
 
 struct SecondView: View {
     
-    let componentsList = ["Combine Transitions"]
+    let componentsList = ["Combine Transitions","Asymmetric Transitions","Custom Transitions"]
     var body: some View {
         List{
             NavigationLink(destination:CombineTransitions()){
                 Text(componentsList[0])
+                    .padding()
+                    .foregroundColor(Color.white)
+                    .background(Color.blue)
+                    .cornerRadius(10)
+            }
+            NavigationLink(destination:AsymmetricTransitions()){
+                Text(componentsList[1])
+                    .padding()
+                    .foregroundColor(Color.white)
+                    .background(Color.blue)
+                    .cornerRadius(10)
+            }
+            NavigationLink(destination:CustomTransitionView()){
+                Text(componentsList[2])
                     .padding()
                     .foregroundColor(Color.white)
                     .background(Color.blue)
